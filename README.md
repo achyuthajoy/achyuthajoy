@@ -1,1 +1,1 @@
-<a href="https://app.daily.dev/achyuthajoy"><img src="https://github.com/rebelchris/rebelchris/blob/master/devcard.svg" width="400" alt="Achyuth Ajoy's Dev Card"/></a>
+<a href="https://app.daily.dev/achyuthajoy"><img src="https://github.com/achyuthajoy/achyuthajoy/blob/master/devcard.svg" width="400" alt="Achyuth Ajoy's Dev Card"/></a>
