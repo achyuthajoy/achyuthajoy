@@ -1,0 +1,24 @@
+name: "Testing variables"
+
+on:
+  pull_request
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  check_mc_changes:
+    name: "Compare GitHub env vars & context"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: GitHub Actor 
+        run: |
+          echo "GitHub Context - ${{ github.actor }}"
+          echo "GitHub Variable - $GITHUB_ACTOR"
+
+      - name: GitHub Run ID 
+        run: |
+          echo "GitHub Context - ${{ github.run_id }}"
+          echo "GitHub Variable - $GITHUB_RUN_ID" 
